@@ -13,6 +13,11 @@ import Foundation
 let catetAC = 8.0
 let catetCB = 6.0
 
-let gipotenuzaAB = sqrt((catetAC*catetAC) + (catetCB*catetCB))
+//вычисляем периметр
+let p = sqrt((catetAC * catetAC) + (catetCB * catetCB)) + catetAC + catetCB
+//вычисляем площадь
+let s = 0.5 * catetAC * catetCB
+
+
 
 //: [Ранее: Задание 2](@previous) | Задание 3 из 3
